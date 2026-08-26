@@ -1,0 +1,88 @@
+body {
+    font-family: 'Aerial';
+    background-color: #00b7ff;
+    color: #ffffff;
+    margin: 0;
+    padding: 40px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    color: #000000;
+    margin-bottom: 30px;
+    font-weight: 600;
+}
+
+fieldset {
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    background-color: #ffffff;
+    padding: 25px;
+    max-width: 700px;
+    width: 150%;
+    box-sizing: border-box;
+}
+
+legend {
+    font-weight: bold;
+    color: #ff0000;
+    padding: 0 10px;
+    font-size: 1rem;
+    text-transform: uppercase;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+td {
+    padding: 10px 0;
+    vertical-align: middle;
+}
+
+td:first-child {
+    width: 35%;
+    font-weight: 500;
+    color: #000000;
+    padding-right: 15px;
+}
+
+
+/* Form Controls (Inputs & Select) */
+
+input[type="text"],
+input[type="number"],
+input[type="email"],
+select {
+    width: 100%;
+    padding: 10px 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 0.95rem;
+    background-color: #fff;
+    box-sizing: border-box;
+    transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+td input[type="submit"],
+td input[type="reset"] {
+    padding: 10px 20px;
+    font-size: 0.95rem;
+    font-weight: 600;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s, transform 0.1s;
+    margin-right: 10px;
+}
+
+
+/* Active click state for buttons */
+
+input[type="submit"]:active,
+input[type="reset"]:active {
+    transform: scale(1);
+}
