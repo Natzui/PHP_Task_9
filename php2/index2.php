@@ -55,7 +55,7 @@
         </form>
     </fieldset>
 
-<a href="./index.php">Go to Main Page</a>
+<a href="./index.php">Go to Main</a>
 
 <?php require './layout/foot.php'; ?>
 
